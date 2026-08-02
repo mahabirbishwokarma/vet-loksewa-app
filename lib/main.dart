@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'screens/home_screen.dart';
 void main() {
   runApp(const VetLoksewaApp());
 }
@@ -15,7 +15,7 @@ class VetLoksewaApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: const HomePage(),
+      home: const HomeScreen(),
     );
   }
 }
