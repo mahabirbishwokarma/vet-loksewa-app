@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "856867087553",
+    "project_id": "vet-loksewa-46d0f",
+    "storage_bucket": "vet-loksewa-46d0f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856867087553:android:8af3e022573e6165f32040",
+        "android_client_info": {
+          "package_name": "com.example.my_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTyUBsvqi7XQCbuznQk4-_m7cbmAMAAwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

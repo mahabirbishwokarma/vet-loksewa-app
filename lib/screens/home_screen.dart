@@ -1,6 +1,6 @@
-
 import 'package:flutter/material.dart';
 import 'about_developer.dart';
+import 'syllabus_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -13,9 +13,11 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.green,
         centerTitle: true,
       ),
+
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
+
           Card(
             child: ListTile(
               leading: const Icon(Icons.person),
@@ -31,40 +33,58 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
 
+
           Card(
             child: ListTile(
               leading: const Icon(Icons.menu_book),
               title: const Text("Veterinary Loksewa Syllabus"),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const SyllabusScreen(),
+                  ),
+                );
+              },
             ),
           ),
+
 
           Card(
             child: ListTile(
               leading: const Icon(Icons.quiz),
               title: const Text("MCQ Practice"),
+              onTap: () {},
             ),
           ),
+
 
           Card(
             child: ListTile(
               leading: const Icon(Icons.timer),
               title: const Text("Mock Test"),
+              onTap: () {},
             ),
           ),
+
 
           Card(
             child: ListTile(
               leading: const Icon(Icons.picture_as_pdf),
               title: const Text("Notes & PDF"),
+              onTap: () {},
             ),
           ),
+
 
           Card(
             child: ListTile(
               leading: const Icon(Icons.campaign),
               title: const Text("Vacancy & Result"),
+              onTap: () {},
             ),
           ),
+
         ],
       ),
     );
